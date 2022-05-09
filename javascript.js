@@ -15,7 +15,6 @@ while (condicion==true) {
     numero_codigo = parseInt(prompt("Ingrese codigo del alumno: "))
     
 
-    // Quiero poner esta restriccion pero no me funciona: (isNaN(numero_codigo)) && ((numero_codigo<1) || (numero_codigo>6))
     if(isNaN(numero_codigo)){
         while(isNaN(numero_codigo)){
             alert("no es un codigo valido")
