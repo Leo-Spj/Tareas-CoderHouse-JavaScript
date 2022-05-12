@@ -1,14 +1,15 @@
 
+function lista_codigos(){    
+    alert("Codigos de alumnos: \n\n◘   1\n◘   2\n◘   3\n◘   4\n◘   5\n◘   6")
+}
 
-
-codigos = "Codigos de alumnos: \n\n◘   1\n◘   2\n◘   3\n◘   4\n◘   5\n◘   6" 
 
 let condicion = true
 lista_alumnos=0
 while (condicion==true) {
     
     if(lista_alumnos==0){        
-        lista = alert(" "+codigos)
+        lista_codigos()
         lista_alumnos=lista_alumnos+1
     }
 
@@ -53,7 +54,7 @@ while (condicion==true) {
     if(condicion==true){
         ver_lista = confirm("Desea ver los codigos de los alumnos?")
             if (ver_lista == true){
-                lista = alert(" "+codigos)
+                lista_codigos()
             }
     }
    
